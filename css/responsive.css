@@ -1,0 +1,456 @@
+@media (max-width: 1200px) {
+  .container{
+    width: 86% !important;
+  }
+
+
+  .topic-box {
+    width: 92% !important;
+}
+
+}
+
+@media (min-width: 1060px) and (max-width: 1085px){
+}
+
+@media (max-width: 1060px) {
+  .container{
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .container{
+    width: 93% !important;
+  }
+
+  body{
+    overflow-x: hidden !important;
+  }
+
+  .checkbtn #bars{
+    display: block !important;
+  }
+  .menu-list{
+    justify-content: flex-end;
+  }
+
+  .menu-list ul {
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    right: -999px;
+    background: #fff;
+    width: 90vw;
+    height: 70vh;
+    padding: 8px 6px;
+    transition: all .4s;
+}
+
+.menu-list ul li{
+  width: 100%;
+  text-align: center;
+}
+
+#check:checked ~ ul{
+  right: 0;
+}
+
+#check:checked ~ label #bars{
+  display: none !important;
+  transition: all.5s;
+}
+
+#check:checked ~ label #cancel{
+  display: block;
+  transition: all .5s;
+}
+
+ul.dropdown-menu{
+  left: 55% !important;
+}
+
+ul.dropdown-menu{
+  width: 350px !important;
+}
+
+  .medical-details {
+    flex-direction: column;
+}
+
+.medical-info {
+  width: 93% !important;
+  padding-block: 25px;
+  padding-inline: 15px;
+}
+
+.medical-info:first-child::after {
+  border-bottom: 45px solid transparent !important;
+  border-top: 45px solid transparent !important;
+} 
+
+.medical-info.afterarrow a {
+  width: 100% !important;
+}
+
+.medical-info a {
+  width: 100%;
+}
+
+.phonedesc {
+  width: 100%;
+  padding-left: 8px;
+}
+
+.aboutwrapper {
+  margin-top: 15rem;
+}
+
+.fix{
+  display: none !important;
+}
+
+}
+
+@media (max-width: 992px) {
+  .container{
+    width: 80% !important;
+  }
+
+  .catagory1,.catagory2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+  .content-box {
+    width: 97% !important;
+}
+
+.content-box:first-child .depcontent {
+  padding-left: 38px;
+}
+
+.specialist {
+  width: 45% !important;
+  margin-bottom: 15px;
+}
+
+.footerbox-wrapper{
+  margin-bottom: 35px;
+}
+
+.footer-box {
+  width: 32%;
+}
+
+.footer-box:last-child {
+  margin-top: 15px;
+  margin-inline: auto;
+}
+
+.footer-box:last-child {
+  margin-top: 15px;
+  margin-inline: auto;
+}
+
+.insurance-wrapper{
+  flex-direction: column;
+}
+
+.insu-img-box img {
+  width: 100px !important;
+}
+
+.insurance-box {
+  width: 100% !important;
+}
+
+.insu-img-box {
+  padding: 30px !important;
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About-page */
+
+.about-wrapper{
+  flex-direction: column;
+}
+
+.about-left {
+  width: 100% !important;
+}
+
+.about-right {
+  width: 100% !important;
+  margin-top: 30px;
+}
+
+.ft-top-wrap{
+  justify-content: space-between;
+}
+
+.footer-top-content {
+  width: 75% !important;
+}
+
+/* Contact-page */
+
+.address {
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+
+.address:last-child {
+  margin-bottom: 0;
+}
+
+.map {
+  width: 100% !important;
+  height: 400px;
+}
+
+.form {
+  width: 100% !important;
+  margin-top: 40px;
+}
+
+.name input, .email input, .subject input, 
+.messege textarea {
+  width: 95% !important;
+}
+
+}
+
+@media (max-width: 900px) {
+  .container{
+    width: 84% !important;
+  }
+}
+
+@media (max-width: 840px) {
+  .container{
+    width: 89% !important;
+  }
+}
+
+@media (max-width: 820px) {
+  .container{
+    width: 91% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container{
+    width: 73% !important;
+  }
+
+  .hide-email{
+    display: none !important;
+  }
+
+  span.hide {
+    border-right: 2px solid #bdb2b2;
+    margin-right: 0 !important;
+    padding-right: 10px;
+}
+
+.medical-info:first-child::after{
+  display: none;
+}
+
+.medical-info{
+  width: 97% !important;
+}
+
+.resource-wrapper a {
+  width: 100% !important;
+  margin-bottom: 25px;
+}
+
+.specialist {
+  width: 100% !important;
+}
+
+.footer-box {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.social{
+  justify-content: flex-start !important;
+}
+
+/* About-page */
+
+.about-content {
+  width: 100% !important;
+}
+
+.common-header{
+  flex-direction: column;
+  align-items: flex-start !important;
+}
+
+.common-left {
+  order: 2;
+}
+
+.common-right {
+  order: 1;
+}
+
+.about-image {
+  width: 80% !important;
+  margin-top: 35px;
+}
+
+.ft-top-wrap a {
+  margin-top: 30px;
+}
+
+.footer-top-content{
+  width: 100% !important;
+}
+
+.topic-box {
+  width: 86% !important;
+}
+
+.topic-icon {
+  width: 12% !important;
+}
+
+/* Resoures */
+
+.image-content-res{
+  flex-direction: column;
+}
+
+.resource-img {
+  width: 75% !important;
+}
+
+.resource-content {
+  width: 98% !important;
+}
+
+}
+
+@media (max-width: 700px) {
+  .container{
+    width: 80% !important;
+  }
+
+}
+
+
+@media (max-width: 640px) {
+  .container{
+    width: 93% !important;
+  }
+
+  .insurance-box {
+    flex-direction: column;
+}
+
+.insu-img-box{
+  width: 100%;
+  border-right: none !important;
+  border-bottom: 1px solid #bfb1b1;
+}
+
+.insurance-box {
+  border-bottom: none;
+}
+
+.insu-border{
+  border-bottom: none;
+}
+
+/* About -page */
+
+.common-right span{
+  font-size: 12px !important;
+}
+
+.common-left h3{
+  font-size: 29px;
+}
+
+}
+
+@media (max-width: 578px) {
+  .container{
+    width: 100% !important;
+  }
+
+  #medical-section{
+    height: 570px;
+  }
+
+  .medical-heading h1{
+    padding-top: 177px;
+  }
+
+   .hide{
+      display: none !important;
+    }
+
+    .nav-info a {
+      font-size: 12px;
+  }
+
+    .medical-heading h1{
+      font-size: 47px !important;
+    }
+
+    .medical-heading p, span{
+      font-size: 17px !important;
+    }
+
+
+    .insurance-main-box h3{
+      font-size: 26px !important;
+    }
+
+    .insurance-main-box p{
+      font-size: 18px !important;
+    }
+
+    .insurance-main-box span{
+      font-size: 14px !important;
+    }
+
+    .insurance-page-box {
+      flex-direction: column;
+  }
+
+  .insurance-page-box{
+    border-bottom: none !important;
+  }
+
+  .insu-page-img-box{
+    border-right: none !;
+    width: 100% !important;
+    border-bottom: 1px solid #ddd;
+  }
+
+
+    .form-btn{
+    width: 42% !important;
+    font-size: 14px !important;
+    }
+
+    .topic-box {
+      width: 80% !important;
+  }
+
+    .topic-icon {
+      width: 14% !important;
+  }
+
+}
