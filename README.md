@@ -3,7 +3,7 @@
 ### 🚀 Live Link
 #### **[Porto Medical - Live Demo](http://porto-medical.netlify.app/)**
 
-## 📌 About Techwix
+## 📌 About Porto-Medical
 Porto-Medical is a modern, responsive and visually appealing website designed to showcase various categoies Doctors e.g cardiology, pulmonology, gynocology and dental etc. It follows best practices in front-end development and provides a seamless user experience.
 
 ## 🎨 Features
